@@ -1,0 +1,17 @@
+{
+  "name": "parcelstarter3000",
+  "description": "Quick starter for doing anything™ with Parcel bundler",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Ezekiel Aquino",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-prettier": "^0.2.1",
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  },
+  "scripts": {
+    "start": "rm -rf .cache & parcel index.html",
+    "build": "rm -rf .cache dist & parcel build index.html"
+  }
+}
