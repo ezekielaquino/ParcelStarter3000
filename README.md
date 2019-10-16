@@ -19,3 +19,13 @@ When you're ready to build just `yarn build`
 - `yarn start` and `build` clears `.cache` every run
 - `yarn build` also clears out your `dist` folder
 - you can place static assets in `static` folder and they won't be file rev'ed
+
+## Tip!
+If you want to alias cloning this repo (as I do) just do e.g. in Terminal ```bootstrap MyProjectName```
+Just do the following:
+- open terminal
+- `open ~/.bash_profile`
+- add an `alias` config there for example `alias="bootstrap git@github.com:ezekielaquino/ParcelStarter3000.git"`
+- save it
+- reload terminal
+- ta da! If you want to quickly begin a new project using this/or any other starter just type in `bootstrap [optional folder name]`
