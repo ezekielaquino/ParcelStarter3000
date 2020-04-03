@@ -12,5 +12,8 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "rm -rf .cache dist & parcel build index.html"
-  }
+  },
+  "browserslist": [
+    "since 2017-06"
+  ]
 }
